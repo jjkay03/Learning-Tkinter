@@ -3,7 +3,7 @@ import ttkbootstrap as ttk
 
 
 # ----------------------------------- Setup ---------------------------------- #
-window = ttk.Window()
+window = ttk.Window(themename="darkly")
 window.title("Buttons")
 window.geometry("600x400")
 
