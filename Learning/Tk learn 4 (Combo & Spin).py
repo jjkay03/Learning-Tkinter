@@ -26,6 +26,20 @@ combo.config(values=items)  # Set the values of the combobox as items
 combo.pack(pady=10)
 
 
+# ---------------------------------- Spinbox --------------------------------- #
+# Creating the spinbox with values from 3 to 20 (with an increment of 3)
+spin_int = tk.IntVar(value=12)
+spin = ttk.Spinbox(
+    master = window, 
+    from_ = 3, to = 20, 
+    increment = 3,
+    textvariable = spin_int,
+    command = (lambda: print(f"SPIN: {spin_int.get()}"))
+    )
+#spin.config(values=[1,2,3,4,5])
+spin.pack(pady=10)
+
+
 # ---------------------------------- Events ---------------------------------- #
 # This event trigers when item is selected in the combobox
 combo.bind(
@@ -33,6 +47,17 @@ combo.bind(
     func = (lambda event: combo_label.config(text=f"SELECTED: {choices_str.get()}"))
 )
 
+# This event trigers when the spinbox increments
+spin.bind(
+    sequence = "<<Increment>>",
+    func = (lambda event: print("UP"))
+)
+
+# This event trigers when the spinbox decrements
+spin.bind(
+    sequence = "<<Decrement>>",
+    func = (lambda event: print("DOWN"))
+)
 
 # ------------------------------------ Run ----------------------------------- #
 window.mainloop()
