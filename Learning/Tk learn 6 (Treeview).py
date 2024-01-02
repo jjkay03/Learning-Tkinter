@@ -13,7 +13,7 @@ emails_domains = ['gmail.com', 'hotmail.com', 'yahoo.com', 'outlook.com', 'orang
 # ----------------------------------- Setup ---------------------------------- #
 window = ttk.Window(themename="darkly")
 window.title("Treeview")
-window.geometry("600x400")
+window.geometry("600x900")
 
 
 # --------------------------------- Treeview --------------------------------- #
