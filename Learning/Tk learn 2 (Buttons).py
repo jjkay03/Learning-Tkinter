@@ -53,6 +53,18 @@ check_2 = ttk.Checkbutton(
 check_2.pack(pady=5)
 
 
+# ------------------------- Check Button 3 bootstrap ------------------------- #
+check_3_var = tk.BooleanVar()
+check_3 = ttk.Checkbutton(
+    master = window, 
+    text = "Magic Check 3", 
+    command = (lambda: print(f"Magic Check 3: {check_1_var.get()}")),
+    variable = check_3_var,
+    bootstyle = "danger-square-toggle"
+    )
+check_3.pack(pady=5)
+
+
 # ------------------------------- Radio Buttons ------------------------------ #
 radio_var = tk.StringVar()
 radio_1 = ttk.Radiobutton(
