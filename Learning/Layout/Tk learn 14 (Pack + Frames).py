@@ -5,6 +5,7 @@
 import tkinter as tk
 from tkinter import ttk
 
+
 # ----------------------------------- Setup ---------------------------------- #
 window = tk.Tk()
 window.title("Pack + Frames")
