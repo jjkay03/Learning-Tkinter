@@ -9,11 +9,15 @@ ttkboutstrap==1.10.1
 customtkinter==5.2.1
 ```
 
+<br>
+
 ## What I have been using to learn:
 
 - I have been watching [this video](https://www.youtube.com/watch?v=mop6g-c5HEY) by CLear Code to learn the basics of tk.
 - The [CustomTkinter docs](https://customtkinter.tomschimansky.com/).
 - The [ttkbootstarp docs](https://ttkbootstrap.readthedocs.io/).
+
+<br>
 
 ## What I leaned:
 ### Basics:
