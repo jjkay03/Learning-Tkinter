@@ -9,14 +9,26 @@ import customtkinter as ctk
 window = ctk.CTk()
 #window = ttk.Window()
 window.title("Murge ctk & ttkb")
-ttk.Style().theme_use("darkly")  # Set the ttkbootstrap theme
 window.geometry("600x400")
 window.iconbitmap("Assets/py-mono.ico")  # Change window icon
+
+ttk.Style().load_user_themes(file="Assets/TTKB-Themes/darkly_ctk.json")
+ttk.Style().theme_use("darkly_ctk")  # Set the ttkbootstrap theme
 
 
 # ---------------------------------- Widgets --------------------------------- #
 # Title
 title_label = ttk.Label(master=window, text="TEST WINDOW", font="Arial 24 bold").pack(pady=10)
+
+# Meter
+meter = ttk.Meter(
+    master=window,
+    metersize=180,
+    amountused=25,
+    metertype="semi",
+    interactive=True,
+    bootstyle="danger"
+).pack(pady=10)
 
 
 # ------------------------------------ Run ----------------------------------- #
