@@ -2,7 +2,12 @@
 
 Just me learning Tkinter, [CustomTkinter](https://github.com/tomschimansky/customtkinter), [ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap) and using this repo to save my code.
 
-Versions of Python and the libs at the moment of me codding all of that: `Python 3.12.1`, `ttkboutstrap==1.10.1`, `customtkinter==5.2.1`
+Versions of Python and the libs at the moment of me codding all of that: 
+```py
+Python 3.12.1
+ttkboutstrap==1.10.1
+customtkinter==5.2.1
+```
 
 ## What I have been using to learn:
 
