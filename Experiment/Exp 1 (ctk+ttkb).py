@@ -12,7 +12,9 @@ window.title("Murge ctk & ttkb")
 window.geometry("600x400")
 window.iconbitmap("Assets/py-mono.ico")  # Change window icon
 
-ttk.Style().load_user_themes(file="Assets/TTKB-Themes/darkly_ctk.json")
+# Window style
+ctk.set_appearance_mode("dark")  # Force ctk dark mode
+ttk.Style().load_user_themes(file="Assets/TTKB-Themes/darkly_ctk.json")  # Load custom ttkb theme
 ttk.Style().theme_use("darkly_ctk")  # Set the ttkbootstrap theme
 
 
