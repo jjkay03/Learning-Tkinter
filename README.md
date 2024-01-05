@@ -40,4 +40,5 @@ customtkinter==5.2.1
 - [x] Grid
 - [x] Place
 - [x] Widget sizes
-- [x] Stacking 
+- [x] Stacking widgets
+- [x] Toggeling widgets
