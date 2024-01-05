@@ -37,4 +37,5 @@ customtkinter==5.2.1
 - [x] Layout basics
 - [x] Pack
 - [x] Pack + Frames
-- [x] Grid 
+- [x] Grid
+- [x] Place
