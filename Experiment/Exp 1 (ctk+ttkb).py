@@ -14,8 +14,8 @@ window.iconbitmap("Assets/py-mono.ico")  # Change window icon
 
 # Window style
 ctk.set_appearance_mode("dark")  # Force ctk dark mode
-ttk.Style().load_user_themes(file="Assets/TTKB-Themes/darkly_ctk.json")  # Load custom ttkb theme
-ttk.Style().theme_use("darkly_ctk")  # Set the ttkbootstrap theme
+ttk.Style().load_user_themes(file="Assets/TTKB-Themes/darkly-ctk.json")  # Load custom ttkb theme
+ttk.Style().theme_use("darkly-ctk")  # Set the ttkbootstrap theme
 
 
 # ---------------------------------- Widgets --------------------------------- #

@@ -1,7 +1,7 @@
 {
     "themes": [
       {
-        "darkly_ctk": {
+        "darkly-ctk": {
           "type": "dark",
           "colors": {
             "primary": "#375a7f",
