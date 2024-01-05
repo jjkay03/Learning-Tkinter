@@ -40,3 +40,4 @@ customtkinter==5.2.1
 - [x] Grid
 - [x] Place
 - [x] Widget sizes
+- [x] Stacking 
