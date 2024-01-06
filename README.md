@@ -42,3 +42,4 @@ customtkinter==5.2.1
 - [x] Widget sizes
 - [x] Stacking widgets
 - [x] Toggeling widgets
+- [x] Combining layouts
