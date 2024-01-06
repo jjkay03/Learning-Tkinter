@@ -44,3 +44,4 @@ customtkinter==5.2.1
 - [x] Toggeling widgets
 - [x] Combining layouts
 - [x] Using classes
+- [x] Custom components 
