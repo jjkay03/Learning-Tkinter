@@ -49,3 +49,6 @@ customtkinter==5.2.1
 - [x] Scrolling
 - [x] Scrollable widgets
 - [x] Multiple windows
+
+### Styling:
+- [x] Style
