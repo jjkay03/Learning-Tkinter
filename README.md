@@ -55,3 +55,4 @@ customtkinter==5.2.1
 - [x] Default Tkinter style
 - [x] Themes
 - [x] Colors
+- [x] Customtkinter
