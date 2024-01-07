@@ -52,5 +52,6 @@ customtkinter==5.2.1
 - [x] Multiple windows
 
 ### Styling:
-- [x] Style
+- [x] Default Tkinter style
 - [x] Themes
+- [x] Colors
