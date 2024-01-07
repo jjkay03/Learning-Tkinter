@@ -48,3 +48,4 @@ customtkinter==5.2.1
 - [x] Responsive layout
 - [x] Scrolling
 - [x] Scrollable widgets
+- [x] Multiple windows
