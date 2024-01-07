@@ -13,7 +13,7 @@ customtkinter==5.2.1
 
 ## What I have been using to learn:
 
-- I have been watching [this video](https://www.youtube.com/watch?v=mop6g-c5HEY) by CLear Code to learn the basics of tk.
+- I have been mainly watching [this video](https://www.youtube.com/watch?v=mop6g-c5HEY) and using this [this repo](https://github.com/clear-code-projects/tkinter-complete) by CLear Code to learn the basics of tk.
 - The [CustomTkinter docs](https://customtkinter.tomschimansky.com/).
 - The [ttkbootstarp docs](https://ttkbootstrap.readthedocs.io/).
 - I use the [Azure theme](https://github.com/rdbende/Azure-ttk-theme) while learning themes.
