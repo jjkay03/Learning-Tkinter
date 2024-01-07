@@ -28,7 +28,7 @@ class App(tk.Tk):
         self.mainloop()
 
     def create_small_layout(self):
-        print("SMALL LAYOUT")
+        print("LAYOUT: SMALL")
 
         self.frame.pack_forget()  # Clear layout
         self.frame = ttk.Frame(self)
@@ -40,7 +40,7 @@ class App(tk.Tk):
         ttk.Label(self.frame, text="Label 4", background="lime").pack(expand=True, fill="both", padx=10, pady=5)
         
     def create_medium_layout(self):
-        print("MEDIUM LAYOUT")
+        print("LAYOUT: MEDIUM")
 
         self.frame.pack_forget()
         self.frame = ttk.Frame(self)
@@ -54,7 +54,7 @@ class App(tk.Tk):
         ttk.Label(self.frame, text="Label 4", background="lime").grid(column=1, row=1, sticky="nsew", padx=10, pady=10)
 
     def create_large_layout(self):
-        print("LARGE LAYOUT")
+        print("LAYOUT: LARGE")
 
         self.frame.pack_forget()
         self.frame = ttk.Frame(self)

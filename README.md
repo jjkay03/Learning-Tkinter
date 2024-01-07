@@ -46,3 +46,4 @@ customtkinter==5.2.1
 - [x] Using classes
 - [x] Custom components
 - [x] Responsive layout
+- [x] Scrolling
