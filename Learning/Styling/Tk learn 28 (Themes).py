@@ -17,7 +17,7 @@ class App(tk.Tk):
         self.minsize(size[0],size[1])
 
         # Theme
-        self.tk.call("source", "Learning/Styling/Tk learn 28 (Themes)/Azure/azure.tcl")  # Import theme from location
+        self.tk.call("source", "Assets/Themes/Azure/azure.tcl")  # Import theme from location
         self.tk.call("set_theme", "dark")
         #self.tk.call("set_theme", "light")
 
