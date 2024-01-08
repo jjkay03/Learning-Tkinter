@@ -2,6 +2,8 @@
 #                                 ttkboutstrap                                 #
 # ---------------------------------------------------------------------------- #
 
+# Open custom theme creator with: python -m ttkcreator
+
 import tkinter as tk
 #from tkinter import ttk
 import ttkbootstrap as ttk
