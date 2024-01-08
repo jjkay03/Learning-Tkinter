@@ -56,3 +56,4 @@ customtkinter==5.2.1
 - [x] Themes
 - [x] Colors
 - [x] Customtkinter
+- [x] ttkboutstrap
