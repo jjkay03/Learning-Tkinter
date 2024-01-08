@@ -57,3 +57,4 @@ customtkinter==5.2.1
 - [x] Colors
 - [x] Customtkinter
 - [x] ttkboutstrap
+- [x] Animated widgets 
