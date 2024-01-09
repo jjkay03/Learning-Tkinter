@@ -59,4 +59,5 @@ customtkinter==5.2.1
 - [x] ttkboutstrap
 - [x] Animated widgets
 - [x] Images
-- [x] Animation 
+- [x] Animation
+- [x] Title bar color
